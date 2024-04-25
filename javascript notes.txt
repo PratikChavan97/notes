@@ -1,0 +1,40 @@
+ === JS Strings ===
+ ---------------------
+ - JS strings are primitive and immutable: all string produces a new string without altering the original string.
+ 
+ 1]	.length
+ -	the length property returns the length of a string
+ 
+ 2] Extracting String Characters:
+ - 	there are 4 methods for extracting string characters.
+		
+		1) at(position):
+		-	brings back a character at position.
+		- It allows the use of negative indices while charAt() don't.
+		- negative indices means start counting backwards, from the end to start.
+		
+		2) charAt(position):
+		-	the charAt() method returns the character at a specified index (position) in a string:
+		
+		3) charCodeAt():
+		-	the charCodeAt() method returns the code of the character at a specified index in a string:
+		- the method returns a UTF-16 code (an integer between 0 and 65535).
+		
+3] Extracting String Parts:
+-	There are 3 methods for extracting a part of a string:
+
+	1) slice():
+	-	slice extracts a part of a string and returns the extracted part in a new string.
+	- this takes 2 parameters: start position and end position.
+	- if end position is omited, slice will cut out rest of the string.
+	- if the position is negative, slice will start from end.
+	
+	2) substring():
+	-	the difference is that start and end values less than 0 are treated as 0 in substring().
+	
+	3) substr():
+	-	the difference is that the second parameter specifies the length of the extracted part.
+	
+4] Converting to Upper and Lower Case:
+-	a string is converted to upper case with toUpperCase():
+- a string is converted to lower case with toLowerCase():
