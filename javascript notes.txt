@@ -37,6 +37,6 @@
 	
 4] Converting to Upper and Lower Case:
 -	a string is converted to upper case with toUpperCase():
-- a string is converted to lower case with toLowerCase():
+- a string is converted to lower case with toLowerCase
 
 ex. text.toLowerCase() // converts string to lower case.
